@@ -1,0 +1,171 @@
+.main_navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: white;
+  .search-box {
+    position: relative;
+  }
+
+  .navbar-links {
+    font-family: IBM-Regular;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color: #666;
+  }
+
+  .navbar-links:hover {
+    color: #ed1d24;
+    transition: all 0.3s linear;
+  }
+
+  ul {
+    ul:first-child {
+      li {
+        position: relative;
+        margin: 0 20px !important;
+        &:after {
+          background: none repeat scroll 0 0 transparent;
+          content: "";
+          display: block;
+          height: 2px;
+          left: 50%;
+          position: absolute;
+          color: #ff3f40;
+          background: #ed165f;
+          transition: width 0.3s ease 0s, left 0.3s ease 0s;
+          width: 0;
+        }
+        &:hover:after {
+          width: 50%;
+          left: 25%;
+        }
+      }
+    }
+    ul:last-child {
+      li {
+        margin: 0 20px;
+      }
+    }
+  }
+
+  .cart-link-item {
+    position: relative;
+  }
+
+  .cart-item-no {
+    left: 50px;
+    top: 10px;
+    position: absolute;
+  }
+
+  .input-search {
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-family: IBM-Regular;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+
+    padding-right: 40px;
+    color: #666;
+  }
+  .input-search::placeholder {
+    color: #666;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  .btn-search {
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    right: 0;
+    position: absolute;
+    color: #666;
+    background-color: transparent;
+    pointer-events: painted;
+  }
+  .btn-search:focus ~ .input-search {
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+  }
+  .input-search:focus {
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+  }
+  .cart-icon {
+    font-size: 30px;
+    padding: 20px;
+    color: #666;
+  }
+  .cart-icon:hover {
+    color: #ed1d24;
+    border-radius: 50px;
+    transition: all 0.5s cubic-bezier(0, 0.11, 0.35, 2);
+  }
+  .mobile-view-search {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-toggler-icon {
+    background-image: url("../../images/hamburger-menu-icon.jpg") !important;
+  }
+
+  .desktop-view-search {
+    display: none;
+  }
+
+  .main_navbar {
+    .header-item {
+      text-align: center;
+    }
+
+    ul {
+      ul:first-child {
+        li {
+          margin: 10px 0 !important;
+        }
+        li:first-child {
+          width: 100%;
+          ul {
+            text-align: center;
+          }
+        }
+        .input-search {
+          width: 100%;
+        }
+        .btn-search:focus ~ .input-search,
+        .input-search:focus {
+          width: 100%;
+        }
+      }
+    }
+    .mobile-view-search {
+      display: block;
+      .input-search {
+        width: 100%;
+      }
+      .btn-search:focus ~ .input-search,
+      .input-search:focus {
+        width: 100%;
+      }
+    }
+  }
+}

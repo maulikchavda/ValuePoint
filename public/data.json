@@ -1,0 +1,187 @@
+{
+    "products":
+    [{
+    "product_id":1,
+    "product_name":"Apple",
+    "product_desc":"The apple is a pome (fleshy) fruit, in which the ripened ovary and surrounding tissue both become fleshy and edible. ... When harvested, apples are usually roundish, 5–10 cm (2–4 inches) in diameter, and some shade of red, green, or yellow in colour; they vary in size, shape, and acidity depending on the variety.",
+    "product_price":125,
+    "product_category":"Fruits",
+    "product_image":"./images/apple.jpeg",
+    "qty":0
+},
+{
+    "product_id":2,
+    "product_name":"Avocado",
+    "product_desc":"Avocados are an interesting fruit because they are very low in carbohydrate yet high in healthy fats.",
+    "product_price":200,
+    "product_category":"Fruits",
+    "product_image":"./images/avocado.jpg",
+    "qty":0
+},
+{
+    "product_id":3,
+    "product_name":"Banana",
+    "product_desc":"The banana is a tropical fruit with a long body covered in a yellow skin.",
+    "product_price":30,
+    "product_category":"Fruits",
+    "product_image":"./images/banana.jpg",
+    "qty":0
+},
+{
+    "product_id":4,
+    "product_name":"Blackberries",
+    "product_desc":"Blackberries are one of the most commonly cultivated fruits. However, we can also find them growing in their wild state – which purportedly have a better nutritional profile and more polyphenols ",
+    "product_price":800,
+    "product_category":"Fruits",
+    "product_image":"./images/blackbarries.jpg",
+    "qty":0
+},
+{
+    "product_id":5,
+    "product_name":"Cherry",
+    "product_desc":"Cherries are one of the most popular fruit varieties, and they are technically a drupe – a fruit with a hard stone inside.",
+    "product_price":145,
+    "product_category":"Fruits",
+    "product_image":"./images/cherry.jpg",
+    "qty":0
+},
+{
+    "product_id":6,
+    "product_name":" Arugula",
+    "product_desc":"Arugula leaves are otherwise known as ‘rocket’, and they are particularly popular in the Mediterranean and Middle-East.",
+    "product_price":120,
+    "product_category":"Vegetables",
+    "product_image":"./images/arugula.jpg",
+    "qty":0
+},
+{
+    "product_id":7,
+    "product_name":" Cabbage",
+    "product_desc":"Cabbage is a large-headed green vegetable that has close botanical links to broccoli, cauliflower, and brussels sprouts.",
+    "product_price":70,
+    "product_category":"Vegetables",
+    "product_image":"./images/cabbage.jpg",
+    "qty":0
+},
+{
+    "product_id":8,
+    "product_name":" Carrots",
+    "product_desc":"Carrots are a sweet-tasting, bright orange root vegetable.",
+    "product_price":130,
+    "product_category":"Vegetables",
+    "product_image":"./images/carrots.jpg",
+    "qty":0
+},
+{
+    "product_id":9,
+    "product_name":" Cauliflower",
+    "product_desc":"For home-baking enthusiasts, cauliflower pizza is even a thing. In my opinion, though, cauliflower cheese will always be the best.",
+    "product_price":60,
+    "product_category":"Vegetables",
+    "product_image":"./images/cauliflower.jpeg",
+    "qty":0
+},
+{
+    "product_id":10,
+    "product_name":" Garlic",
+    "product_desc":"Garlic is one of those types of vegetables that confuses people",
+    "product_price":170,
+    "product_category":"Vegetables",
+    "product_image":"./images/garlic.jpg",
+    "qty":0
+},
+{
+    "product_id":11,
+    "product_name":"Butter",
+    "product_desc":"Butter is a high-fat dairy food made purely from churned milk or cream.",
+    "product_price":100,
+    "product_category":"Dairy",
+    "product_image":"./images/butter.jpeg",
+    "qty":0
+},
+{
+    "product_id":12,
+    "product_name":"Cheese",
+    "product_desc":"Cheese is delicious and it is popular throughout the world.",
+    "product_price":150,
+    "product_category":"Dairy",
+    "product_image":"./images/cheese.jpeg",
+    "qty":0
+},
+{
+    "product_id":13,
+    "product_name":"Viili",
+    "product_desc":"Viili is a Scandinavian fermented dairy food that enjoys popularity in Finland and Sweden.",
+    "product_price":250,
+    "product_category":"Dairy",
+    "product_image":"./images/viili.jpg",
+    "qty":0
+},
+{
+    "product_id":14,
+    "product_name":"Quark",
+    "product_desc":"It is a kind of curd cheese, and it has some nutritional similarities to cottage cheese.",
+    "product_price":130,
+    "product_category":"Dairy",
+    "product_image":"./images/quark.jpg",
+    "qty":0
+},
+{
+    "product_id":15,
+    "product_name":"Yogurt",
+    "product_desc":"Yogurt has been the focus of a wide variety of studies and is believed to have several positive health benefits.",
+    "product_price":190,
+    "product_category":"Dairy",
+    "product_image":"./images/yogurt.jpg",
+    "qty":0
+},
+{
+    "product_id":16,
+    "product_name":"Wheat",
+    "product_desc":"Wheat is the most widely cultivated cereal crop in the world, with Australia being the eighth largest producer and fourth largest exporter of wheat in the world. Wheat has come to be a firm favourite grain because of the diversity it provides in culinary applications.",
+    "product_price":300,
+    "product_category":"Grains",
+    "product_image":"./images/wheat.jpg",
+    "qty":0
+},
+{
+    "product_id":17,
+    "product_name":"Oats",
+    "product_desc":"Oats are the fourth largest grain crop produced in Australia. Oats almost never have their bran and germ removed in processing so  most food products containing ‘oats’, ‘oat flour’ or ‘oatmeal’ as an ingredient  contain wholegrain oats.",
+    "product_price":250,
+    "product_category":"Grains",
+    "product_image":"./images/Oats.jpg",
+    "qty":0
+},
+{
+    "product_id":18,
+    "product_name":"Millet",
+    "product_desc":"It is one of the hardiest grains and is therefore a staple food in regions with poor soils where other grains will not grow at all (e.g. parts of India, Africa, China and Russia).",
+    "product_price":140,
+    "product_category":"Grains",
+    "product_image":"./images/Millet.jpg",
+    "qty":0
+}
+,
+{
+    "product_id":19,
+    "product_name":"Rice",
+    "product_desc":"Rice is grown in over 100 countries and is a grain eaten by more people in the world than any other grain. In fact, three of the most populated regions of the world, China, India and Indonesia, are all rice based societies and it is their staple food.",
+    "product_price":160,
+    "product_category":"Grains",
+    "product_image":"./images/rice.jpg",
+    "qty":0
+}
+,
+{
+    "product_id":20,
+    "product_name":"Corn",
+    "product_desc":"Corn (also known as maize), is one of the sweetest tasting grains. In its immature form it is the familiar yellow corn on the cob. When it matures and dries out it is used like other grains to make grain foods like breakfast cereal and tortillas.",
+    "product_price":100,
+    "product_category":"Grains",
+    "product_image":"./images/corn.jpg",
+    "qty":0
+}
+
+
+]}
