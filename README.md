@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# E-commerce Grocery Store 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+E-commerce Grocery store build with React and Redux
+
+
+## Clone Repo
+```
+   $ git clone https://github.com/maulikchavda/Imperial-Grocery.git
+   $ cd project
+```
 
 ## Available Scripts
 
