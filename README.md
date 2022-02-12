@@ -5,7 +5,7 @@ E-commerce Grocery store build with React and Redux
 
 ## Clone Repo
 ```
-   $ git clone https://github.com/maulikchavda/Imperial-Grocery.git
+  $ git clone https://github.com/maulikchavda/Imperial-Grocery.git
    $ cd project
 ```
 
