@@ -3,9 +3,9 @@ import "./Header.scss";
 import {LazyLoadImage} from "react-lazy-load-image-component";
 import {useDispatch, useSelector} from "react-redux";
 
-import logo from "../../images/logo.png";
+import logo from "../../utils/images/logo.png";
 import {Link} from "react-router-dom";
-import {searchProducts} from "../../Redux/Actions/actions";
+import {searchProducts} from "../../redux/Actions/actions";
 
 const Header = () => {
     const allData = useSelector((state) => state.data.dataItems);

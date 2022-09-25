@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
 import { useSelector, useDispatch } from "react-redux";
-import { emptyCart } from "../../Redux/Actions/actions";
+import { emptyCart } from "../../redux/Actions/actions";
 import { Link } from "react-router-dom";
 import "./Checkout.scss";
 const Checkout = () => {

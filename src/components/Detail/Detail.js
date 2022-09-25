@@ -1,5 +1,5 @@
 import React from "react";
-import { addtoCart } from "../../Redux/Actions/actions";
+import { addtoCart } from "../../redux/Actions/actions";
 import { toast, ToastContainer } from "react-toastify";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { useSelector, useDispatch } from "react-redux";

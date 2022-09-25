@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import banner from "../../images/banner.jpg";
-import banner2 from "../../images/banner2.jpg";
+import banner from "../../utils/images/banner.jpg";
+import banner2 from "../../utils/images/banner2.jpg";
 import Content from "../Content/Content";
 import SkeletonHome from "../SkeletonView/SkeletonHome";
 

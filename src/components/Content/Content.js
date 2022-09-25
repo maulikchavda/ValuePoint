@@ -6,7 +6,7 @@ import { useSelector, useDispatch } from "react-redux";
 import "react-toastify/dist/ReactToastify.css";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import SkeletonContent from "../SkeletonView/SkeletonContent";
-import noitem from "../../images/no-item.png";
+import noitem from "../../utils/images/no-item.png";
 
 import {
   fetchApiData,
@@ -15,7 +15,7 @@ import {
   detailPage,
   allProducts,
   sortItems,
-} from "../../Redux/Actions/actions";
+} from "../../redux/Actions/actions";
 import { Link } from "react-router-dom";
 
 const Content = () => {

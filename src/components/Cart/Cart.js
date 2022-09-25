@@ -6,10 +6,10 @@ import {
   removeCart,
   addtoCart,
   removefromCart,
-} from "../../Redux/Actions/actions";
+} from "../../redux/Actions/actions";
 import { Link } from "react-router-dom";
 import "./Cart.scss";
-import emptyCart from "../../images/empty-cart.jpg";
+import emptyCart from "../../utils/images/empty-cart.jpg";
 const Cart = () => {
   const filterItem = useSelector((state) => state.data.filterItem);
   const dispatch = useDispatch();
